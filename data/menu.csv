@@ -1,0 +1,4 @@
+# 0)Primer enlace;1)Título imagen menú;2)Posición imagen menú (der, izq);3)Segundo enlace;4)Tercer enlace;5)URL página;6)Imagen página;7)Enlace Imagen; 8)Texto página
+#Agregar NA donde no aplique
+Sobre Nosotros;sobre-nosotros;der;Quienes Somos;La Facultad;https://plantillatest.uniandes.edu.co/sobre-nosotros/quienes-somos/la-facultad;La facultad;sites/default/files/imagen/2020/11/25/banner-interno-la-facultad.jpg;La Facultad
+Programas;NA;NA;Programas;NA;https://plantillatest.uniandes.edu.co/programas;NA;NA;NA

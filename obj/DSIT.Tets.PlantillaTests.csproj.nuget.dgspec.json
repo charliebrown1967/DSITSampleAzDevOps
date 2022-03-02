@@ -1,0 +1,166 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Testing\\DSIT\\Pruebas automaticas\\DSIT.Tets.SampleAzDevOpsPipeline\\DSIT.Tets.PlantillaTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Testing\\DSIT\\Pruebas automaticas\\DSIT.Tests.Base\\DSIT.Tests.Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Testing\\DSIT\\Pruebas automaticas\\DSIT.Tests.Base\\DSIT.Tests.Base.csproj",
+        "projectName": "DSIT.Tests.Base",
+        "projectPath": "C:\\Testing\\DSIT\\Pruebas automaticas\\DSIT.Tests.Base\\DSIT.Tests.Base.csproj",
+        "packagesPath": "C:\\Users\\Nicole Fernández G\\.nuget\\packages\\",
+        "outputPath": "C:\\Testing\\DSIT\\Pruebas automaticas\\DSIT.Tests.Base\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nicole Fernández G\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Testing\\DSIT\\Pruebas automaticas\\DSIT.Tets.SampleAzDevOpsPipeline\\DSIT.Tets.PlantillaTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Testing\\DSIT\\Pruebas automaticas\\DSIT.Tets.SampleAzDevOpsPipeline\\DSIT.Tets.PlantillaTests.csproj",
+        "projectName": "DSIT.Tets.PlantillaTests",
+        "projectPath": "C:\\Testing\\DSIT\\Pruebas automaticas\\DSIT.Tets.SampleAzDevOpsPipeline\\DSIT.Tets.PlantillaTests.csproj",
+        "packagesPath": "C:\\Users\\Nicole Fernández G\\.nuget\\packages\\",
+        "outputPath": "C:\\Testing\\DSIT\\Pruebas automaticas\\DSIT.Tets.SampleAzDevOpsPipeline\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nicole Fernández G\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Testing\\DSIT\\Pruebas automaticas\\DSIT.Tests.Base\\DSIT.Tests.Base.csproj": {
+                "projectPath": "C:\\Testing\\DSIT\\Pruebas automaticas\\DSIT.Tests.Base\\DSIT.Tests.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[98.0.4758.4800, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
