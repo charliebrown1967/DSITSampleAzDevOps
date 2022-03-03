@@ -30,16 +30,11 @@ public class PlantillaTestCapturaPantalla : TestCaseBase
 
         
         var screenshot = (TestCaseBase.driver as ITakesScreenshot).GetScreenshot();
-        screenshot.SaveAsFile("C:\\Testing\\DSIT\\Pruebas automaticas\\DSIT.Tets.SampleAzDevOpsPipeline\\Evidencia1.png");
+        screenshot.SaveAsFile("Evidencia1.png");
+        TestContext.AddResultFile("Evidencia1.png");
         
         base.WaitForSeconds(5);
-      
-         var e = base.GetElementByXPath("//*[text()='La Facultad']",true);
-         // JavaScript Executor to scroll to element
-         ((IJavaScriptExecutor)e)
-         .ExecuteScript("arguments[0].scrollIntoView(true);", e); 
-
-          
+        Assert.IsNotNull(screenshot) ;
        
     }
 
