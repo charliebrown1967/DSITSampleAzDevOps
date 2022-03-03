@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="DSIT.Tests.Base\DSIT.Tests.Base.csproj" />
+    <ProjectReference Include="..\DSIT.Tests.Base\DSIT.Tests.Base.csproj" />
   </ItemGroup>
 
 </Project>
