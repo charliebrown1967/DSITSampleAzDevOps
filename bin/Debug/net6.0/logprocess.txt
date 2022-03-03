@@ -1,4 +1,0 @@
-screenHeight: 744
-strPageHeight:  1600
-screenHeight: 744
-strPageHeight:  1600
